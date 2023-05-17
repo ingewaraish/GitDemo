@@ -11,6 +11,7 @@ public class Listeners implements ITestListener{
 	public void onTestStart(ITestResult result) {
 		// TODO Auto-generated method stub
 		ITestListener.super.onTestStart(result);
+		System.out.println("postJira");
 	}
 
 	@Override
